@@ -1,9 +1,14 @@
 #include <Arduino.h>
+#define trigPin 9
+#define echoPin 10
+
+long duration;
+float distance;
 /**
  * @file main.cpp
  * @brief Embedded Distance Measurement using Ultrasonic Sensor
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Harshit Sharma
+ * @date 2026-02-27
  *
  * @details
  * Measures distance using HC-SR04 ultrasonic sensor

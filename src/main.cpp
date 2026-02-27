@@ -73,5 +73,10 @@ void loop() {
     // Print calculated distance
 
     // TODO 14:
+    Serial.print("Distance: ");
+    Serial.print(distance);
+    Serial.println(" cm");
+
+    delay(500);
     // Add delay (500ms)
 }

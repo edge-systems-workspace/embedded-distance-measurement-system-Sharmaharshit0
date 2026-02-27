@@ -28,6 +28,9 @@ float distance;
  // Create variable to store calculated distance
 
 void setup() {
+    Serial.begin(9600);
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin, INPUT);
 
     // TODO 5:
     // Initialize Serial communication (9600 baud rate)
